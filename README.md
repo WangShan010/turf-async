@@ -1,6 +1,6 @@
 # turf-async
 
-**turfAsync** 使 **Turf**. 可以在 **Web Worker** 中运行，避免计算量较大时造成页面阻塞卡死。
+**turfAsync** 使 **Turf** 可以在 **Web Worker** 中运行，避免计算量较大时造成页面阻塞卡死。
 
 Turf 仓库：https://github.com/Turfjs/turf
 
