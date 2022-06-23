@@ -20,7 +20,7 @@
     async function main() {
         await showCurrentTime();
         await turfAsync.init();
-        window.geoJson = await fetch('./geojson/中国.json').then(res => res.json());
+        window.geoJson = await fetch('https://fgyao.oss-cn-beijing.aliyuncs.com/turf-async/example/geojson/中国.json').then(res => res.json());
     }
 
 
