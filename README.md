@@ -4,6 +4,7 @@
 
 Turf 仓库：https://github.com/Turfjs/turf
 
+如果觉得对您有帮助或启发，请给我的 **turf-async** 点一个 star 非常感谢！！
 
 
 ## 1、适用场景
