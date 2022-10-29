@@ -32,6 +32,7 @@
     }
 
     async function runTurf(geoJson) {
+        document.getElementById('result').textContent = '计算中...';
         document.getElementById('task').textContent = '原生 turf 计算量过大，页面阻塞卡死';
         await new Promise(resolve => setTimeout(e => resolve(), 100));
         console.time('turf');
@@ -44,6 +45,7 @@
 
 
     async function runTurfAsync(geoJson) {
+        document.getElementById('result').textContent = '计算中...';
         document.getElementById('task').textContent = 'turfAsync 多线程运算中，页面渲染流畅';
         console.time('turfAsync');
         let b2 = await turfAsync.buffer(geoJson, 500, {units: 'miles'});
